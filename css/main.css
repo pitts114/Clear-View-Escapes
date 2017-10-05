@@ -1,0 +1,43 @@
+.navbar-brand{
+    padding:0px !important;
+    margin-top: -1px;
+}
+body {
+    background: white;
+}
+
+#escapes {
+    font-size: 150%;
+    line-height: 25px;
+}
+
+#get-in-touch{
+    background: #2f5572;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 6px;
+}
+
+#site-navbar {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.navbar-default {
+    background: rgba(47, 85, 114, .7);
+}
+
+.navbar-transparent {
+    background: rgba(0,0,0,0.0);
+}
+
+.square{
+    background: #2f5572;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
