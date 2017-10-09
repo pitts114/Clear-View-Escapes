@@ -11,11 +11,19 @@ body {
     line-height: 25px;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #FFF;
+}
+
 #get-in-touch{
     background: #2f5572;
     padding-top: 9px;
     padding-bottom: 9px;
-    margin-top: 6px;
+    margin-top: 5px;
+}
+
+#get-in-touch-xs {
+    background: rgba(0,0,0,0.0);
 }
 
 #site-navbar {
@@ -27,8 +35,9 @@ body {
     background: rgba(47, 85, 114, .7);
 }
 
-.navbar-transparent {
-    background: rgba(0,0,0,0.0);
+
+.navbar-default .navbar-collapse{
+    border-color: rgba(47, 85, 114, .7);
 }
 
 .square{
@@ -40,4 +49,13 @@ body {
 
 .navbar-default .navbar-nav > li > a {
     color: white;
+}
+
+#xs-square {
+    margin-left: 15px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    box-shadow: none;
 }
