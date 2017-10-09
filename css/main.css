@@ -71,15 +71,29 @@ body {
     background-size: cover;
 }
 
-#get-started{
+#get-started .jumbotron{
+    text-shadow: rgba(0,0,0,.2) 1px 1px;
 }
 
 #get-started .jumbotron {
     background: rgba(0,0,0,0.0);
 }
 
+.btn-lg {
+    text-shadow: rgba(0,0,0,.2) 1px 1px;
+}
+
+#get-started .jumbotron h1 {
+    color: rgb(47, 85, 114);
+}
+
 #get-started .jumbotron h1 + p {
     font-size: 27px;
+    color: rgb(47, 85, 114);
+}
+
+#get-started .jumbotron p {
+    color: white;
 }
 
 #get-started .jumbotron button {
