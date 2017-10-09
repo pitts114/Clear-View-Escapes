@@ -4,6 +4,7 @@
 }
 body {
     background: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #escapes {
@@ -29,22 +30,24 @@ body {
 #site-navbar {
     border-radius: 0px;
     border: 0px;
+    margin-bottom: 0px;
 }
 
 .navbar-default {
-    background: rgba(47, 85, 114, .7);
+    background: rgba(47, 85, 114, 0.5);
 }
 
 
-.navbar-default .navbar-collapse{
-    border-color: rgba(47, 85, 114, .7);
-}
 
 .square{
     background: #2f5572;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin: 0px;
+}
+
+.square p {
+    margin-bottom: 0px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -58,4 +61,28 @@ body {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
     box-shadow: none;
+}
+
+.vacation-bg{
+    background: url(/img/vacation-bg.jpg) no-repeat bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#get-started{
+}
+
+#get-started .jumbotron {
+    background: rgba(0,0,0,0.0);
+}
+
+#get-started .jumbotron h1 + p {
+    font-size: 27px;
+}
+
+#get-started .jumbotron button {
+    background-color: #d59541;
+    color: white;
 }
