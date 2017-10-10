@@ -64,11 +64,12 @@ body {
 }
 
 .vacation-bg{
-    background: url(/img/vacation-bg.jpg) no-repeat bottom;
+    background: url(../img/vacation-bg.jpg) no-repeat bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border-bottom: 10px solid #2f5572;
 }
 
 #get-started .jumbotron{
@@ -99,4 +100,13 @@ body {
 #get-started .jumbotron button {
     background-color: #d59541;
     color: white;
+}
+
+#our-start h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.img-responsive {
+    margin: 0 auto;
 }
