@@ -80,9 +80,7 @@ body {
     background: rgba(0,0,0,0.0);
 }
 
-.btn-lg {
-    text-shadow: rgba(0,0,0,.2) 1px 1px;
-}
+
 
 #get-started .jumbotron h1 {
     color: rgb(47, 85, 114);
@@ -97,9 +95,10 @@ body {
     color: white;
 }
 
-#get-started .jumbotron button {
+.btn-lg {
     background-color: #d59541;
     color: white;
+    text-shadow: rgba(0,0,0,.2) 1px 1px;
 }
 
 #our-start h1 {
@@ -109,4 +108,20 @@ body {
 
 .img-responsive {
     margin: 0 auto;
+}
+
+
+
+footer {
+    background: #2f5572;
+}
+footer p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: white;
+    margin-top: 20px;
+}
+
+#footer-btn{
+    margin-bottom: 30px;
 }
