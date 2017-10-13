@@ -102,9 +102,41 @@ body {
     text-shadow: rgba(0,0,0,.2) 1px 1px;
 }
 
+#our-start {
+    color: black;
+}
+
+#our-start .row {
+    margin-bottom: 20px;
+}
+
 #our-start h1 {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    color: #2f5572;
+    
+}
+
+#our-start h2 {
+    color: #2f5572;
+}
+
+#our-start h3 {
+    color: #d59541;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 767px) {
+    .img-frame {
+        height: 250px;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+    
+    .img-frame img {
+        width: 110%;
+        margin-left: -5%;
+        margin-top: -10%;
+    }
 }
 
 .img-responsive {
@@ -114,6 +146,10 @@ body {
 #our-features {
     background: #2f5572;
     color: white;
+}
+
+#our-features .row {
+    margin-bottom: 20px;
 }
 
 #testimonials {
