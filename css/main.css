@@ -160,6 +160,7 @@ body {
 .card h3 {
     color: #2f5572;
     font-weight: bolder;
+    margin-top: 0px;
 }
 
 .card h5 {
@@ -184,3 +185,8 @@ footer p {
 #footer-btn{
     margin-bottom: 25px;
 }
+
+i{
+    color: #d59541;
+}
+
