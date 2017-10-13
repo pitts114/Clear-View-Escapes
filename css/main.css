@@ -5,6 +5,7 @@
 body {
     background: white;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 #escapes {
@@ -110,7 +111,65 @@ body {
     margin: 0 auto;
 }
 
+#our-features {
+    background: #2f5572;
+    color: white;
+}
 
+#testimonials {
+    background: url(../img/testimonials-bg.jpg) no-repeat center;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 767px){
+    #testimonials {
+        background: #e0e6ef;
+    }
+}
+
+#testimonials img {
+    width: 150px;
+    height: auto;
+    border: 6px solid white;
+    margin-top: -81px;
+}
+
+#testimonials h1 {
+    color: #2f5572;
+    margin-bottom: 100px;
+}
+
+.card {
+    background: rgba(255,255,255,0.7);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 767px){
+    .card{
+        height: auto !important;
+    }
+    .col{
+        margin-bottom: 100px;
+    }
+}
+
+.card h3 {
+    color: #2f5572;
+    font-weight: bolder;
+}
+
+.card h5 {
+    color: #d59541;
+}
+
+.card p {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
 
 footer {
     background: #2f5572;
@@ -123,5 +182,5 @@ footer p {
 }
 
 #footer-btn{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
